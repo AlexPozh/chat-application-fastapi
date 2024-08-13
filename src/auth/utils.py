@@ -1,4 +1,4 @@
-from config import JWTConfig
+from src.config import JWTConfig
 
 from datetime import datetime, timedelta, UTC
 

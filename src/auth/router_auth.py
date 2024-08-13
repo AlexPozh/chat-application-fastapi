@@ -5,9 +5,9 @@ from datetime import datetime, timedelta
 
 from jwt.exceptions import InvalidTokenError
 
-from auth.schemas import TokenInfo, UserAuth, UserRegistration
-from auth.auth_exception import InvalidData, InvalidToken
-from auth.utils import encode_jwt, decode_jwt, hash_password, check_password
+from schemas import TokenInfo, UserAuth, UserRegistration
+from auth_exception import InvalidData, InvalidToken
+from utils import encode_jwt, decode_jwt, hash_password, check_password
 
 from typing import Annotated
 
